@@ -1,4 +1,9 @@
-# Redes Neurais para Aprendizado de Máquina
+```markdown
+# Aula 1: Redes Neurais para Aprendizado de Máquina
+
+## Introdução
+
+Bem-vindos à nossa primeira aula sobre redes neurais para aprendizado de máquina. Nesta aula, vamos explorar a origem das redes neurais, seus conceitos fundamentais e alguns exemplos práticos. Vamos começar!
 
 ## Origem das Redes Neurais
 
@@ -39,9 +44,7 @@ Uma rede neural é composta por camadas de neurônios interconectados. As princi
 
 As funções de ativação introduzem não-linearidade no modelo, permitindo que a rede aprenda padrões complexos. Algumas funções de ativação comuns são:
 
-- **Sigmoid**: ```latex
-  \sigma(x) = \frac{1}{1 + e^{-x}}
-  
+- **Sigmoid**: \( \sigma(x) = \frac{1}{1 + e^{-x}} \)
 - **Tanh**: \( \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \)
 - **ReLU (Rectified Linear Unit)**: \( \text{ReLU}(x) = \max(0, x) \)
 
@@ -70,3 +73,10 @@ Outro exemplo é o reconhecimento de voz, onde a rede neural é usada para conve
 3. **Arquitetura da Rede**: Criamos uma rede neural com camadas de entrada, ocultas e de saída.
 4. **Treinamento**: Utilizamos um algoritmo de otimização para ajustar os pesos da rede.
 5. **Avaliação**: Testamos a rede com áudios não vistos durante o treinamento para avaliar sua precisão.
+
+## Conclusão
+
+Nesta aula, exploramos a origem das redes neurais, desde o modelo de McCulloch-Pitts até o Perceptron. Discutimos os conceitos fundamentais, como a arquitetura de uma rede neural, funções de ativação e aprendizado supervisionado. Também vimos exemplos práticos de classificação de imagens e reconhecimento de voz.
+
+Na próxima aula, vamos aprofundar nos algoritmos de treinamento e otimização das redes neurais. Até lá!
+```
