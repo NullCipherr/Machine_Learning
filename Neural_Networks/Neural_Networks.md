@@ -2,7 +2,7 @@
 mathjax: "true"
 ---
 
-\\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)
+x = (-b ± √(b^2 - 4ac)) / (2a)
 
 # Redes Neurais para Aprendizado de Máquina
 
