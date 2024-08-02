@@ -2,7 +2,7 @@
 mathjax: "true"
 ---
 
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+Expressão embutida `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 # Redes Neurais para Aprendizado de Máquina
 
@@ -27,10 +27,12 @@ Warren McCulloch e Walter Pitts propuseram o primeiro modelo matemático de um n
 
 Frank Rosenblatt desenvolveu o Perceptron, um modelo de neurônio artificial que podia aprender a partir de exemplos. O Perceptron é uma extensão do modelo de McCulloch-Pitts e inclui um algoritmo de aprendizado supervisionado.
 
-- **Entradas**: \( x_1, x_2, \ldots, x_n \)
-- **Pesos**: \( w_1, w_2, \ldots, w_n \)
-- **Bias**: \( b \)
-- **Função de ativação**: \( f(z) \), onde \( z = \sum_{i=1}^{n} w_i x_i + b \)
+- **Entradas:** $x_1, x_2, \ldots, x_n$
+- **Pesos:** $w_1, w_2, \ldots, w_n$
+- **Bias:** $b$
+- **Função de ativação:** $f(z)$, onde $z = \sum_{i=1}^{n} w_i x_i + b$
+
+A função de ativação mais comum no Perceptron é a função degrau (step function), que retorna 1 se $z \geq 0$ e 0 caso contrário.
 
 A função de ativação mais comum no Perceptron é a função degrau (step function), que retorna 1 se \( z \geq 0 \) e 0 caso contrário.
 
@@ -44,13 +46,13 @@ Uma rede neural é composta por camadas de neurônios interconectados. As princi
 2. **Camadas Ocultas**: Processam os dados e extraem características.
 3. **Camada de Saída**: Produz a saída final da rede.
 
-### Funções de Ativação
+Funções de Ativação
 
 As funções de ativação introduzem não-linearidade no modelo, permitindo que a rede aprenda padrões complexos. Algumas funções de ativação comuns são:
 
-- **Sigmoid**: \( \sigma(x) = \frac{1}{1 + e^{-x}} \)
-- **Tanh**: \( \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \)
-- **ReLU (Rectified Linear Unit)**: \( \text{ReLU}(x) = \max(0, x) \)
+- **Sigmoid:** $\sigma(x) = \frac{1}{1 + e^{-x}}$
+- **Tanh:** $\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
+- **ReLU (Rectified Linear Unit):** $\text{ReLU}(x) = \max(0, x)$
 
 ### Aprendizado Supervisionado
 
