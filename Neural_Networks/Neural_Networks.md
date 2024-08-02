@@ -1,4 +1,4 @@
-```markdown
+```latex
 # Aula 1: Redes Neurais para Aprendizado de Máquina
 
 ## Introdução
