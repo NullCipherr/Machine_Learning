@@ -24,7 +24,7 @@ Frank Rosenblatt desenvolveu o Perceptron, um modelo de neurônio artificial que
 - **Entradas:** $x_1, x_2, \ldots, x_n$
 - **Pesos:** $w_1, w_2, \ldots, w_n$
 - **Bias:** $b$
-- **Função de ativação:** $f(z)$, onde $z = \left \sum_{i=1}^{n} (w_i x_i + b \right)$
+- **Função de ativação:** $f(z)$, onde $z = \left (\sum_{i=1}^{n}) (w_i x_i + b \right)$
 
 A função de ativação mais comum no Perceptron é a função degrau (step function), que retorna 1 se $z \geq 0$ e 0 caso contrário.
 
