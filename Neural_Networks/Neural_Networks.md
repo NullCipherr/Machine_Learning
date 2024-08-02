@@ -2,7 +2,7 @@
 mathjax: "true"
 ---
 
-x = (-b ± √(b^2 - 4ac)) / (2a)
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 # Redes Neurais para Aprendizado de Máquina
 
