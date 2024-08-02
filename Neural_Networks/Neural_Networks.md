@@ -1,9 +1,3 @@
----
-mathjax: "true"
----
-
-Expressão embutida `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
-
 # Redes Neurais para Aprendizado de Máquina
 
 ## Introdução
@@ -46,7 +40,7 @@ Uma rede neural é composta por camadas de neurônios interconectados. As princi
 2. **Camadas Ocultas**: Processam os dados e extraem características.
 3. **Camada de Saída**: Produz a saída final da rede.
 
-Funções de Ativação
+### Funções de Ativação
 
 As funções de ativação introduzem não-linearidade no modelo, permitindo que a rede aprenda padrões complexos. Algumas funções de ativação comuns são:
 
