@@ -39,7 +39,9 @@ Uma rede neural é composta por camadas de neurônios interconectados. As princi
 
 As funções de ativação introduzem não-linearidade no modelo, permitindo que a rede aprenda padrões complexos. Algumas funções de ativação comuns são:
 
-- **Sigmoid**: \( \sigma(x) = \frac{1}{1 + e^{-x}} \)
+- **Sigmoid**: ```latex
+  \sigma(x) = \frac{1}{1 + e^{-x}}
+  
 - **Tanh**: \( \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \)
 - **ReLU (Rectified Linear Unit)**: \( \text{ReLU}(x) = \max(0, x) \)
 
